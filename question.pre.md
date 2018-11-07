@@ -19,4 +19,6 @@ Here is the output:
 
 include(<<<minimal-output_indented.html>>>)
 
+This occurs in both Firefox 63.0 and Chromium 70.0.
+
 How can I preserve the `charset` attribute of an HTML blob?
