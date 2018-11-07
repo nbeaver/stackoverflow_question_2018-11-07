@@ -7,9 +7,15 @@ However, I am losing the `charset` meta attribute when I do so.  The output look
 
 include(<<<example-redirect_indented.html>>>)
 
-This means that my browser is not sure what encoding to use, and does not display the accents correctly. This, on the other hand, properly shows the accents:
+This means that my browser is not sure what encoding to use, and does not display the accents correctly.
+
+![Loading DÃ©jÃ  vu - Wikipedia...](screenshot-1.png)
+
+This, on the other hand, properly shows the accents:
 
 include(<<<desired-output_indented.html>>>)
+
+![Loading Déjà vu - Wikipedia...](screenshot-2.png)
 
 I've reduced it down as minimal example as I can, and it still occurs.
 
@@ -18,6 +24,7 @@ include(<<<minimal_indented.html>>>)
 Here is the output:
 
 include(<<<minimal-output_indented.html>>>)
+
 
 This occurs in both Firefox 63.0 and Chromium 70.0.
 
