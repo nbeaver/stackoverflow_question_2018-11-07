@@ -21,4 +21,4 @@ minimal.html : minimal.pre.html example2_indented.js
 	m4 $< > $@
 
 clean :
-	rm -f -- $(OUT)
+	rm -f -- $(OUT) $(HTML_INDENTED) $(JS_INDENTED)
